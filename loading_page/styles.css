@@ -1,0 +1,257 @@
+
+
+body {
+  background-color: black;
+  background-image: url('loading_page/background.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* .main-container{
+    text-align: center;
+} */
+
+.micro-logo{
+    height: 5rem;
+    width: 5rem;
+    margin: 1.5rem 50% 0 50%;
+}
+
+.pg-title{
+    color: #D5FC34;
+    font-size: 2.2rem;
+}
+
+.dash-board{
+    width: 130px;
+    height: 512px;
+    text-align: center;
+    background-color: #9437ff98;
+    border-radius: 20px;
+    margin: 0 2rem;
+    position: fixed;
+    
+}
+
+.Mlogo{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-top: 1rem;
+}
+
+.rank-1{
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    bottom: 25%;
+}
+.rank-2{
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    left: 40%;
+    bottom: 8%;
+}
+.rank-3{
+    height: 5rem;
+    width: 5rem;
+    position: relative;
+    right: 40%;
+    bottom: 8%;
+}
+.user{
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    bottom: 42%;
+    left: 42%;
+}
+.user-r{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left:2%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.name{
+    margin-top: 5%;
+    color: white;
+    font-size: x-large;
+    margin: 2rem;
+    margin-top: 2rem;
+}
+
+.board{
+    margin-left: 13rem;
+}
+
+.boxes{
+    height: 200px;
+    width: 90%;
+    text-align: center;
+}
+
+
+.box-2{
+    background-color: #d4fc3482;
+    height: 85%;
+    width: 31%;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    top: 3%;
+    right: 2%;
+    border-radius: 7px;
+    
+}
+.box-1{
+    background-color: #d4fc3482;
+    height: 85%;
+    width: 31%;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    bottom: 4%;
+    border-radius: 7px;
+}
+
+.box-3{
+    background-color: #d4fc3482;
+    height: 85%;
+    width: 31%;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    top: 3%;
+    left: 2%;
+    border-radius: 7px;
+}
+
+.rect-4{
+    background-color: #9437ff98;
+    height: 63px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 1rem 0 1rem 0;
+    padding-top: 5px;
+   
+}
+.rect-5{
+    background-color: #9437ff98;
+    height: 63px;
+    width: 90%;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.pos{
+    width: 90%;
+    height: 63px;
+    /* height: 100px; */
+}
+
+.rect-pos{
+    background-color: #9437ff98;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 5px;
+    
+    /* margin: 3rem 0 0 0; */
+}
+
+.text{
+    color: white;
+    font-family: 'Overpass Mono', monospace;
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+
+
+
+
+.social-container{
+    margin: 0.5rem 0 1rem 1rem;
+    
+}
+
+.social_micro{
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem;
+}
+
+
+
+
+
+
+a:link { 
+    color: white;
+    text-decoration: none; 
+    background-color: transparent;
+}
+a:visited { 
+    color: white;
+    background-color: transparent;
+    text-decoration: none; 
+}
+a:hover { 
+    color: #D5FC34;
+    background-color: transparent;
+    text-decoration: none; 
+}
+a:active { 
+    color: white;
+    background-color: transparent;
+    text-decoration: none; 
+}
+
+
+
+/* SIDE BAR */
+
+ /* .HSbar {
+    background: rgba(149, 55, 255, 0.6);
+    min-width: 100px;
+    height: 72%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 13%;
+    left: 1%;
+    border-radius: 20px;
+    padding: 2%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 2rem;
+  }
+  
+  .HSbar-item {
+    list-style-type: none;
+    margin: 2.5rem;
+    border-bottom: 1px solid #222;
+    border-top: 1px solid #222;
+    transform: translateY(55px);
+    text-align: center;
+    cursor: pointer;
+    padding: 0.625rem;
+    border-radius: 100%;
+    background-color: black;
+  } */
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .HSbar-item:hover {
+    background: #d5fc34;
+  }
+
+  .team-page-heading {
+    margin-left: 24%;
+    margin-top: 2rem;
+  }
+
+
+  /* END OF HSBAR */
